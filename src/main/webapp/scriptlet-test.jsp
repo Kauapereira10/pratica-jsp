@@ -16,5 +16,18 @@
 			out.println("<br/>" + i);
 		}
 	%>
+	
+	<br/>
+
+	<h1>Nomes</h1>
+	
+	<%
+	
+		String[] nomes = {"Kaua", "Davi", "Saimom", "Larissa"};
+	
+		for(int i = 0; i < nomes.length; i++) {
+			out.println("<br/>Nome: " + nomes[i]);
+		}
+	%>
 </body>
 </html>
