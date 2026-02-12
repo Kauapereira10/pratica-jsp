@@ -17,5 +17,14 @@
 	%>
 	
 	<h3>Lower Case: <%= makeItLower("Hello WORLD!") %></h3>
+	
+	<%! 
+		int soma(int a, int b) { 
+			return a + b;
+		}
+	%>
+	
+	<h3>5 + 10 = <%= soma(5, 10) %></h3>
+	<h3>20 + 30 = <%= soma(20, 30) %></h3>
 </body>
 </html>
